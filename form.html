@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/search" method="GET">
+        <label for="search">Search products:</label>
+        <input type="text" id="search" name="q" placeholder="Headphones, Watch...">
+        
+        <label for="category">Category:</label>
+        <select id="category" name="category">
+            <option value="">All Categories</option>
+            <option value="electronics">Electronics</option>
+            <option value="accessories">Accessories</option>
+        </select>
+        
+        <fieldset>
+            <legend>Options:</legend>
+            <label>
+                <input type="checkbox" name="in_stock" value="1">
+                In Stock Only
+            </label>
+        </fieldset>
+        
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
+
+<!-- GET, POST, DELETE, PATCH/PUT -->
