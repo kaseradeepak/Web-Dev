@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
@@ -8,38 +8,73 @@ body {
 /* Some changes in the CSS file. */
 
 /* Header styling */
-header {
+/* header {
     background-color: #ad6e45;
     color: white;
     padding: 20px;
 }
 
 /* Product cards */
-article {
+/* article {
     background-color: white;
     padding: 20px;
     margin-bottom: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
+} */
 
 /* Form styling */
-input, select {
+/* input, select {
     padding: 10px;
     margin: 5px 0;
     border: 1px solid #ddd;
     border-radius: 4px;
-}
+} */
 
-button {
+/* button {
     background-color: #27ae60;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+} */
+
+/* button:hover {
+    background-color: #219150;
+}  */
+
+
+/* Element Selectors  */
+/* h1 {
+    color: blueviolet;
 }
 
-button:hover {
-    background-color: #219150;
+h2 {
+    color: aquamarine;
+}
+
+h3 {
+    color: brown;
+} */
+
+/* Class Selector */
+#one {
+    color: teal;
+}
+
+.backend {
+    color: bisque;
+}
+
+.frontend {
+    color: blueviolet;
+}
+
+.aiml {
+    color: brown;
+}
+
+.agentic {
+    color: yellowgreen;
 }
